@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="bn">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday My Special Friend! 🎂</title>
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <!-- Canvas Confetti Library -->
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+
+
+</head>
+
+<body>
+ <div class="container pb-5">
+
+        <!-- ================= PAGE 1 ================= -->
+        <div id="page1" class="page-section active-page">
+            <div class="glass-card p-4 p-md-5 text-center">
+                <div class="hero-section">
+
+                    <img src="butterfly.png" class="sticker sticker-butterfly" alt="Butterfly">
+                    <img src="ballon.webp" class="sticker sticker-balloon" alt="Balloon">
+                    <img src="giftbox.webp" class="sticker sticker-gift" alt="Gift Box">
+                    <img src="cupcake.png" class="sticker sticker-cupcake" alt="Cupcake">
+                    <h1>Happy Birthday, My Love! 🎂</h1>
+                    <button class="nav-btn my-4 w-50" id="btn-p2" onclick="switchTab(2)"><i class="fa-solid fa-images me-1"></i>
+                        Click here to see memories!</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- ================= PAGE 2 ================= -->
+        <div id="page2" class="page-section">
+            <div class="glass-card p-4 p-md-5">
+                <h3 class="fw-bold text-center mb-4" style="color: #c2185b;">📸 For My Beloved Husband!</h3>
+
+                <div class="row g-3">
+                    <!-- Photo 1 -->
+                    <div class="col-md-4">
+                        <div class="photo-frame">
+                            <img src="image/004cddcf-cade-4ada-903a-81aefe1b806f.jpg" alt="pic1"
+                                onclick="zoomImage(this.src)">
+                            <div class="compliment-tag">✨Your smile is absolutely enchanting!</div>
+                        </div>
+                    </div>
+                    <!-- Photo 2 -->
+                    <div class="col-md-4">
+                        <div class="photo-frame">
+                            <img src="image/0d3e3384-100e-4693-bb89-2c15b1a3a979.jpg" alt="pic2"
+                                onclick="zoomImage(this.src)">
+                            <div class="compliment-tag">🌸 You are like a bunch of fresh roses!</div>
+                        </div>
+                    </div>
+                    <!-- Photo 3 -->
+                    <div class="col-md-4">
+                        <div class="photo-frame">
+                            <img src="image/476775908_637584615377587_388056668961360632_n.jpg" alt="pic3"
+                                onclick="zoomImage(this.src)">
+                            <div class="compliment-tag">🌟 You have an extraordinary personality!</div>
+                        </div>
+                    </div>
+                    <!-- Photo 4 -->
+                    <div class="col-md-4">
+                        <div class="photo-frame">
+                            <img src="image/492008777_690082610127787_3523317226597067723_n.jpg" alt="pic4"
+                                onclick="zoomImage(this.src)">
+                            <div class="compliment-tag">😇 You are absolutely adorable!</div>
+                        </div>
+                    </div>
+                    <!-- Photo 5 -->
+                    <div class="col-md-4">
+                        <div class="photo-frame">
+                            <img src="image/99e0e043-20ee-4fd0-835e-8e1af47ca70c.jpg" alt="pic5"
+                                onclick="zoomImage(this.src)">
+                            <div class="compliment-tag">💖 You are absolutely perfect!</div>
+                        </div>
+                    </div>
+                    <!-- Photo 6 -->
+                    <div class="col-md-4">
+                        <div class="photo-frame">
+                            <img src="image/476869932_637582708711111_666129207358634108_n.jpg" alt="pic6"
+                                onclick="zoomImage(this.src)">
+                            <div class="compliment-tag">👑 You are a true style icon!</div>
+                        </div>
+                    </div>
+                    <!-- Photo 7 -->
+                    <div class="col-md-4">
+                        <div class="photo-frame">
+                            <img src="image/607571567_881774327625280_2098730731008120881_n.jpg" alt="pic7"
+                                onclick="zoomImage(this.src)">
+                            <div class="compliment-tag">🌺 You are absolutely beautiful!</div>
+                        </div>
+                    </div>
+                    <!-- Photo 8 -->
+                    <div class="col-md-4">
+                        <div class="photo-frame">
+                            <img src="image/2f8eb1e8-9064-462b-89ab-6519a9ebe9f6.jpg" alt="pic8"
+                                onclick="zoomImage(this.src)">
+                            <div class="compliment-tag">☀️ You are as sweet as a morning sun!</div>
+                        </div>
+                    </div>
+                    <!-- Photo 9 -->
+                    <div class="col-md-4">
+                        <div class="photo-frame">
+                            <img src="image/download.jpg" alt="pic9"
+                                onclick="zoomImage(this.src)">
+                            <div class="compliment-tag">🎁 You are my dearest husband!</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Mini Wish Box -->
+            <div class="mini-wish-box mt-4">
+                <h5 class="fw-bold mb-2"  style="color: #8B639B;"><i class="fa-solid fa-envelope-open-text me-2"></i>Many Many happy returns of the day!</h5>
+                <p class="mb-0 fs-6">
+                    "On this special day of yours, my only wish is that the beautiful smile on your face remains exactly the same throughout your life. May all the joy and happiness in the world overflow into your life. Happy Birthday! My Leader!" 💖
+                </p>
+                <div class="button-container"> 
+                <button class="nav-btn my-4" id="btn-p3" onclick="switchTab(3)"><i class="fa-solid fa-heart me-1"></i> Gift for You!</button>
+                <button class="nav-btn active my-3" id="btn-p1" onclick="switchTab(1)"><i
+                    class="fa-solid fa-wand-magic-sparkles me-1"></i>Go to the First Page!</button>
+
+            </div>
+
+        </div>
+          </div>
+
+        <!-- ================= PAGE 3 ================= -->
+        <div id="page3" class="page-section">
+            <div class="glass-card hero-section p-4 p-md-5 text-center position-relative overflow-hidden">
+
+                <span class="floating-sticker pos-1">💖</span>
+                <span class="floating-sticker pos-2">🎈</span>
+                <span class="floating-sticker pos-3">🌸</span>
+                <span class="floating-sticker pos-4">✨</span>
+
+                <div class="my-3">
+                    <h2 class="display-6 fw-bold mb-3" style="color: #8B639B;">
+                        💍 "Will You Be My Soul Mate Forever?" 💍
+                    </h2>
+                   
+                </div>
+
+                <div class="my-4">
+                    <button class="btn btn-proposal me-2 mb-2" onclick="triggerProposal('Yes! ❤️')">
+                        Yes! 🥰
+                    </button>
+                    <button class="btn btn-proposal mb-2" style="background: linear-gradient(45deg, #8B639B, #AF719D);"
+                        onclick="triggerProposal('One Hundred Times Yes! 🎉')">
+                        One Hundred Times Yes   ! 💖
+                    </button>
+                </div>
+
+                <div id="proposalResponse" class="alert alert-success d-none fs-5 fw-bold my-3"></div>
+
+                <hr class="my-4">
+
+                <div class="text-start px-md-3">
+                    <h4 class="fw-bold text-center mb-3"  style="color: #8B639B;"><i
+                            class="fa-solid fa-heart-pulse me-2"></i>To My Special One!</h4>
+                    <p class="fs-5 text-secondary" style="line-height: 1.8;">
+                        Today is a very, very special day for me—because on this day, someone came into the world who has made my life beautiful and joyful.
+                        <br><br>
+                       You are not just my friend; you are a beautiful chapter in my life. Your smile brightens everything around you, and your words have the power to lift my spirits. On your birthday, may God grant you a long life, keep you in good health, and fulfill every wish and desire you have.
+
+                        <br><br>
+                        Always stay this happy and cheerful. Happy birthday, dear SweetHeart!🥰 🎂🎉✨
+                    </p>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Image Zoom Modal -->
+    <div class="modal fade" id="imageModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content bg-transparent border-0 text-center">
+                <img id="zoomedImg" src="" class="img-fluid rounded-4 shadow-lg" style="max-height: 80vh;">
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap 5 JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/bootstrap.bundle.min.js"></script>
+
+    <script>
+        // Custom Tab Switcher Function (Guaranteed to work)
+        function switchTab(pageNum) {
+            // Hide all pages
+            document.getElementById('page1').classList.remove('active-page');
+            document.getElementById('page2').classList.remove('active-page');
+            document.getElementById('page3').classList.remove('active-page');
+
+            // Remove active class from buttons
+            document.getElementById('btn-p1').classList.remove('active');
+            document.getElementById('btn-p2').classList.remove('active');
+            document.getElementById('btn-p3').classList.remove('active');
+
+            // Show selected page
+            document.getElementById('page' + pageNum).classList.add('active-page');
+            document.getElementById('btn-p' + pageNum).classList.add('active');
+        }
+
+        // Page 1: Sticker Click Effect
+        function showSurprise(msg) {
+            const box = document.getElementById('surpriseMsg');
+            box.innerText = msg;
+            box.classList.remove('d-none');
+            confetti({ particleCount: 30, spread: 50, origin: { y: 0.7 } });
+        }
+
+        function openGift() {
+            confetti({ particleCount: 150, spread: 90, origin: { y: 0.6 } });
+            showSurprise('🎉 Wow! A ton of love and prayers for you! 💖');
+        }
+
+        // Page 2: Zoom Photo Modal
+        function zoomImage(src) {
+            document.getElementById('zoomedImg').src = src;
+            var myModal = new bootstrap.Modal(document.getElementById('imageModal'));
+            myModal.show();
+        }
+
+        // Page 3: Proposal Button Effect
+        function triggerProposal(response) {
+            confetti({ particleCount: 200, spread: 100, origin: { y: 0.6 } });
+            const respBox = document.getElementById('proposalResponse');
+            respBox.innerText = `You say: "${response}" - Yay! Accepting My commitment to be the best Soul!👩‍❤️‍👨 🎉❤️`;
+            respBox.classList.remove('d-none');
+        }
+    </script>
+</body>
+
+</html>
